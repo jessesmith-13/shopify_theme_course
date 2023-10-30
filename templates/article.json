@@ -16,11 +16,11 @@
           "type": "featured_image"
         },
         "content": {
-          "type": "featured_content"
+          "type": "article_content"
         }
       },
-      "block_order": ["title"]
+      "block_order": ["title", "author", "published_date", "thumbnail", "content"]
     }
   },
-  "order": ["template", "author", "published_date", "thumbnail", "content"]
+  "order": ["template"]
 }
