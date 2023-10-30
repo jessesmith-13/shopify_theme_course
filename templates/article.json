@@ -5,10 +5,22 @@
       "blocks": {
         "title": {
           "type": "article_title"
+        },
+        "author": {
+          "type": "article_author"
+        },
+        "published_date": {
+          "type": "article_published_date"
+        },
+        "thumbnail": {
+          "type": "featured_image"
+        },
+        "content": {
+          "type": "featured_content"
         }
       },
       "block_order": ["title"]
     }
   },
-  "order": ["template"]
+  "order": ["template", "author", "published_date", "thumbnail", "content"]
 }
